@@ -820,7 +820,7 @@ static struct cam_camnoc_specific
 			.enable = false,
 			.access_type = CAM_REG_TYPE_READ_WRITE,
 			.masked_value = 0,
-			.offset = 0x7108, /* BPS_CRE_WR : NOC_NRT_2_QOSGEN_MAINCTL */
+			.offset = 0x9108, /* BPS_CRE_WR : NOC_NRT_2_QOSGEN_MAINCTL */
 			.value = 0x0,
 		},
 		.qosgen_shaping_low = {

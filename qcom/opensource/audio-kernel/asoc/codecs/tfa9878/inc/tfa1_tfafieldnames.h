@@ -185,7 +185,7 @@ enum tfa1_bf_enum_list {
 	TFA1_BF_REQDMG = 0x70d0,
 	TFA1_BF_REQCAL = 0x70e0,
 	TFA1_BF_REQRSV = 0x70f0,
-	TFA1_BF_MADD = 0x710f,
+	TFA1_BF_MADD = 0x910f,
 	TFA1_BF_MEMA = 0x720f,
 	TFA1_BF_ERR = 0x7307,
 	TFA1_BF_ACK = 0x7387,
@@ -369,7 +369,7 @@ tfa1_datasheet_names[] = {\
 	{0x70d0, "REQDMG"},\
 	{0x70e0, "REQCAL"},\
 	{0x70f0, "REQRSV"},\
-	{0x710f, "MADD"},\
+	{0x910f, "MADD"},\
 	{0x720f, "MEMA"},\
 	{0x7307, "ERR"},\
 	{0x7387, "ACK"},\
@@ -819,7 +819,7 @@ tfa1_bit_names[] = {\
 	{0x7030, "cf_aif"},\
 	{0x7040, "cf_int"},\
 	{0x7087, "cf_req"},\
-	{0x710f, "cf_madd"},\
+	{0x910f, "cf_madd"},\
 	{0x720f, "cf_mema"},\
 	{0x7307, "cf_err"},\
 	{0x7387, "cf_ack"},\

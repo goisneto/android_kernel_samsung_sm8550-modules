@@ -9381,9 +9381,9 @@ out_dword_masked_ns(HWIO_REO_R0_CACHE_CTL_GXI_PRIORITY_ADDR(x),m,v,HWIO_REO_R0_C
 #define HWIO_REO_R0_REO2SW5_RING_MSI1_BASE_LSB_ADDR_BMSK                                                     0xffffffff
 #define HWIO_REO_R0_REO2SW5_RING_MSI1_BASE_LSB_ADDR_SHFT                                                              0
 
-#define HWIO_REO_R0_REO2SW5_RING_MSI1_BASE_MSB_ADDR(x)                                                       ((x) + 0x710)
-#define HWIO_REO_R0_REO2SW5_RING_MSI1_BASE_MSB_PHYS(x)                                                       ((x) + 0x710)
-#define HWIO_REO_R0_REO2SW5_RING_MSI1_BASE_MSB_OFFS                                                          (0x710)
+#define HWIO_REO_R0_REO2SW5_RING_MSI1_BASE_MSB_ADDR(x)                                                       ((x) + 0x910)
+#define HWIO_REO_R0_REO2SW5_RING_MSI1_BASE_MSB_PHYS(x)                                                       ((x) + 0x910)
+#define HWIO_REO_R0_REO2SW5_RING_MSI1_BASE_MSB_OFFS                                                          (0x910)
 #define HWIO_REO_R0_REO2SW5_RING_MSI1_BASE_MSB_RMSK                                                               0x1ff
 #define HWIO_REO_R0_REO2SW5_RING_MSI1_BASE_MSB_POR                                                           0x00000000
 #define HWIO_REO_R0_REO2SW5_RING_MSI1_BASE_MSB_POR_RMSK                                                      0xffffffff

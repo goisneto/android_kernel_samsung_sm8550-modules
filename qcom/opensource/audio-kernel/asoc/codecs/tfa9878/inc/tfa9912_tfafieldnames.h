@@ -1380,7 +1380,7 @@ tfa9912_bit_names[] = {\
 	{0x70a0, "boost_speed"},\
 	{0x70c1, "dcdc_sel"},\
 	{0x70f0, "dcdc_pwmonly"},\
-	{0x7104, "bst_drive"},\
+	{0x9104, "bst_drive"},\
 	{0x7151, "bst_scalecur"},\
 	{0x7174, "bst_slopecur"},\
 	{0x71c1, "bst_slope"},\

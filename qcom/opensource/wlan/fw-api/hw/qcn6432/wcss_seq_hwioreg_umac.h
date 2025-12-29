@@ -32378,9 +32378,9 @@
 #define HWIO_TQM_R0_TQM2TQM_OUT2_RING_PRODUCER_INT2_SETUP_HIGH_THRESHOLD_BMSK                                        0xffff
 #define HWIO_TQM_R0_TQM2TQM_OUT2_RING_PRODUCER_INT2_SETUP_HIGH_THRESHOLD_SHFT                                             0
 
-#define HWIO_TQM_R0_TQM2TQM_OUT2_RING_MSI2_BASE_LSB_ADDR(x)                                                      ((x) + 0x710)
-#define HWIO_TQM_R0_TQM2TQM_OUT2_RING_MSI2_BASE_LSB_PHYS(x)                                                      ((x) + 0x710)
-#define HWIO_TQM_R0_TQM2TQM_OUT2_RING_MSI2_BASE_LSB_OFFS                                                         (0x710)
+#define HWIO_TQM_R0_TQM2TQM_OUT2_RING_MSI2_BASE_LSB_ADDR(x)                                                      ((x) + 0x910)
+#define HWIO_TQM_R0_TQM2TQM_OUT2_RING_MSI2_BASE_LSB_PHYS(x)                                                      ((x) + 0x910)
+#define HWIO_TQM_R0_TQM2TQM_OUT2_RING_MSI2_BASE_LSB_OFFS                                                         (0x910)
 #define HWIO_TQM_R0_TQM2TQM_OUT2_RING_MSI2_BASE_LSB_RMSK                                                         0xffffffff
 #define HWIO_TQM_R0_TQM2TQM_OUT2_RING_MSI2_BASE_LSB_POR                                                          0x00000000
 #define HWIO_TQM_R0_TQM2TQM_OUT2_RING_MSI2_BASE_LSB_POR_RMSK                                                     0xffffffff

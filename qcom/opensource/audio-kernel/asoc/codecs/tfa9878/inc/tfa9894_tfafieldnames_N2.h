@@ -225,7 +225,7 @@ enum tfa9894N2_bf_enum_list {
 	TFA9894N2_BF_DCVOF = 0x7005,
 	TFA9894N2_BF_DCVOS = 0x7065,
 	TFA9894N2_BF_DCMCC = 0x70c3,
-	TFA9894N2_BF_DCCV = 0x7101,
+	TFA9894N2_BF_DCCV = 0x9101,
 	TFA9894N2_BF_DCIE = 0x7120,
 	TFA9894N2_BF_DCSR = 0x7130,
 	TFA9894N2_BF_DCDIS = 0x7140,
@@ -510,7 +510,7 @@ tfa9894N2_datasheet_names[] = {\
 	{0x7005, "DCVOF"},\
 	{0x7065, "DCVOS"},\
 	{0x70c3, "DCMCC"},\
-	{0x7101, "DCCV"},\
+	{0x9101, "DCCV"},\
 	{0x7120, "DCIE"},\
 	{0x7130, "DCSR"},\
 	{0x7140, "DCDIS"},\
@@ -845,7 +845,7 @@ tfa9894N2_bit_names[] = {\
 	{0x7005, "frst_boost_voltage"},\
 	{0x7065, "scnd_boost_voltage"},\
 	{0x70c3, "boost_cur"},\
-	{0x7101, "bst_slpcmplvl"},\
+	{0x9101, "bst_slpcmplvl"},\
 	{0x7120, "boost_intel"},\
 	{0x7130, "boost_speed"},\
 	{0x7140, "dcdcoff_mode"},\

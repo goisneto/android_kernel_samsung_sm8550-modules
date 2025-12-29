@@ -87,7 +87,7 @@ static struct cam_ife_csid_ver1_path_reg_info
 	.cfg1_addr                      = 0x704,
 	.ctrl_addr                      = 0x708,
 	.frm_drop_pattern_addr          = 0x70c,
-	.frm_drop_period_addr           = 0x710,
+	.frm_drop_period_addr           = 0x910,
 	.irq_subsample_pattern_addr     = 0x714,
 	.irq_subsample_period_addr      = 0x718,
 	.hcrop_addr                     = 0x71c,

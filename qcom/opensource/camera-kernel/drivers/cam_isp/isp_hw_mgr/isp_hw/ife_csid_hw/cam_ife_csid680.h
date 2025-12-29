@@ -798,7 +798,7 @@ static struct cam_ife_csid_ver2_path_reg_info
 		.ctrl_addr                        = 0x704,
 		.debug_clr_cmd_addr               = 0x708,
 		.multi_vcdt_cfg0_addr             = 0x70c,
-		.cfg1_addr                        = 0x710,
+		.cfg1_addr                        = 0x910,
 		.err_recovery_cfg0_addr           = 0x714,
 		.err_recovery_cfg1_addr           = 0x718,
 		.err_recovery_cfg2_addr           = 0x71C,
